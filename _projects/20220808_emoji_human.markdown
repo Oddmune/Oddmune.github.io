@@ -4,7 +4,7 @@ image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files
 layout: project
 ---
 
-<iframe src="https://odd-mune.github.io/EMOJI-HUMAN/" width="100%" height="1080" style="border:none;">
+<iframe src="https://oddmune.github.io/EMOJI-HUMAN/" width="100%" height="1080" style="border:none;">
   Your browser does not support iframes.
 </iframe>
 

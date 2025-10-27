@@ -18,15 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: odd-mune website
+title: oddmune website
 email: odd-mune@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio of odd-mune, a game developer
-domain: odd-mune.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+  Portfolio of oddmune, a game developer
+domain: oddmune.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://odd-mune.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://oddmune.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  odd-mune
+github_username:  oddmune
 linkedin_username: oddmune-undefined-7aa125350
 instagram_username: oddmune
 

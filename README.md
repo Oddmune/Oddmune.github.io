@@ -1,1 +1,1 @@
-# odd-mune.github.io
+# oddmune.github.io
