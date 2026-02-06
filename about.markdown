@@ -22,7 +22,7 @@ Vancouver Film School, Game Design (Jan 2026-Dec 2026)
 B.F.A. in Digital Contents, Kyung Hee University (Mar 2020-Feb 2025)
 
 **Now**  
-Developing a horror-themed farming game for a game jam entry.
+Building gameplay systems and prototypes as part of VFS coursework.
 
 ## Strengths
 
