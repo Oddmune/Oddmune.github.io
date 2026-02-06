@@ -1,43 +1,62 @@
----
+﻿---
 layout: default
 ---
 
 <section class="hero">
   <div class="container hero-grid">
     <div class="hero-copy">
-      <p class="hero-kicker">Technical Design - Gameplay Design - Level Design</p>
-      <h1>{{ site.title }}</h1>
-      <p class="hero-subtitle">
-        Korean game designer studying at Vancouver Film School (Jan-Dec 2026), building gameplay systems and
-        levels that ship. I specialize in the hard middle: converting ideas into rules, balance, and
-        implementation-ready specs.
-      </p>
-      <div class="hero-actions">
-        <a class="btn primary" href="{{ '/portfolio/' | relative_url }}">View Portfolio</a>
-        <a class="btn ghost" href="{{ '/cv/' | relative_url }}">Download CV</a>
+      <div class="archive-card">
+        <div class="archive-header">
+          <div class="archive-title">Project Archive</div>
+          <div class="archive-chip">Designer Profile</div>
+        </div>
+        <h1>{{ site.title }}</h1>
+        <p class="hero-kicker">Technical Design - Gameplay Design - Level Design</p>
+        <p class="hero-subtitle">
+          Korean game designer studying at Vancouver Film School (Jan-Dec 2026), building gameplay systems and
+          levels that ship. I specialize in the hard middle: converting ideas into rules, balance, and
+          implementation-ready specs.
+        </p>
+        <div class="tag-row">
+          <span>Systems Design</span>
+          <span>Level Flow</span>
+          <span>Specs + Tuning</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="{{ '/portfolio/' | relative_url }}">View Portfolio</a>
+          <a class="btn ghost" href="{{ '/cv/' | relative_url }}">Download CV</a>
+        </div>
       </div>
-      <div class="hero-metrics">
-        <div>
-          <span class="metric-value">3+</span>
-          <span class="metric-label">Shipped student projects</span>
-        </div>
-        <div>
-          <span class="metric-value">2</span>
-          <span class="metric-label">Team leadership roles</span>
-        </div>
-        <div>
-          <span class="metric-value">2026</span>
-          <span class="metric-label">VFS Game Design</span>
+      <div class="status-panel">
+        <div class="status-title">Current Focus</div>
+        <div class="status-grid">
+          <div>
+            <div class="status-label">Location</div>
+            <strong>Vancouver, BC</strong>
+          </div>
+          <div>
+            <div class="status-label">Open To</div>
+            <strong>Gameplay/Technical Design / Level Design</strong>
+          </div>
+          <div>
+            <div class="status-label">Season</div>
+            <strong>VFS Game Design (Jan-Dec 2026)</strong>
+          </div>
         </div>
       </div>
     </div>
     <div class="hero-portrait">
-      <img src="{{ '/assets/images/profile_picture_front.jpg' | relative_url }}" alt="Mingyeom Song portrait">
-      <div class="hero-card">
-        <div class="hero-card-title">Currently</div>
-        <div class="hero-card-body">Vancouver, BC - Game Design (VFS)</div>
-        <div class="hero-card-title">Open To</div>
-        <div class="hero-card-body">Gameplay/Technical Design - Level Design</div>
+      <div class="portrait-frame">
+        <img src="{{ '/assets/images/profile_picture_front.jpg' | relative_url }}" alt="Mingyeom Song portrait">
+      </div>
+      <div class="toolkit-panel">
+        <div class="toolkit-title">Toolset</div>
+        <div class="toolkit-grid">
+          <span>Prototype</span>
+          <span>Balance</span>
+          <span>Telemetry</span>
+          <span>Documentation</span>
+        </div>
       </div>
     </div>
   </div>
@@ -49,19 +68,60 @@ layout: default
       <h2>What I Design</h2>
       <p>Systems that are readable, testable, and fun under real production constraints.</p>
     </div>
-    <div class="pill-grid">
-      <div class="pill-card">
+    <div class="pill-grid focus-tiles">
+      <div class="pill-card focus-tile">
+        <div class="tile-icon">*</div>
         <h3>Technical Design</h3>
         <p>Mechanic specs, tuning tables, and clean implementation plans for engineers.</p>
       </div>
-      <div class="pill-card">
+      <div class="pill-card focus-tile">
+        <div class="tile-icon">*</div>
         <h3>Gameplay Systems</h3>
         <p>Progression loops, economy, balance, and friction that supports player intent.</p>
       </div>
-      <div class="pill-card">
+      <div class="pill-card focus-tile">
+        <div class="tile-icon">*</div>
         <h3>Level Design</h3>
         <p>Readable flow, pacing, and spatial storytelling that teach systems through play.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-quest">
+  <div class="container">
+    <div class="section-header">
+      <h2>Design Pillars</h2>
+      <p>Repeatable practices that keep production on course.</p>
+    </div>
+    <div class="quest-grid">
+      <article class="quest-card">
+        <div class="quest-kicker">Primary Focus</div>
+        <h3>Prototype to Proof</h3>
+        <p>Rapid loops, tight variables, and telemetry notes that validate the fun fast.</p>
+        <div class="quest-meta">
+          <span>Reward: Clarity + Confidence</span>
+          <span>Difficulty: Medium</span>
+        </div>
+      </article>
+      <article class="quest-card">
+        <div class="quest-kicker">Secondary Focus</div>
+        <h3>Balance the Economy</h3>
+        <p>Build tuning tables, stress test edge cases, and lock the intended pace.</p>
+        <div class="quest-meta">
+          <span>Reward: Fair Progression</span>
+          <span>Difficulty: Hard</span>
+        </div>
+      </article>
+      <article class="quest-card">
+        <div class="quest-kicker">Collaboration</div>
+        <h3>Design Handoff</h3>
+        <p>Specs, diagrams, and behavior notes that let engineers ship with confidence.</p>
+        <div class="quest-meta">
+          <span>Reward: Fast Implementation</span>
+          <span>Difficulty: Medium</span>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -72,10 +132,10 @@ layout: default
       <h2>Featured Projects</h2>
       <p>Case studies with goals, constraints, and impact.</p>
     </div>
-    <div class="card-grid">
+    <div class="card-grid portfolio-cards">
       {% assign featured = site.projects | where: "featured", true | sort: "path" | reverse %}
       {% for project in featured %}
-      <a class="card" href="{{ project.url }}">
+      <a class="card portfolio-card" href="{{ project.url }}">
         <div class="card-image">
           <img src="{{ project.image }}" alt="{{ project.title }}">
         </div>
@@ -124,19 +184,41 @@ layout: default
   </div>
 </section>
 
-<section class="section section-cta">
-  <div class="container cta-grid">
-    <div>
-      <h2>Open to NA opportunities</h2>
-      <p>Based in Vancouver. Preparing IEC Working Holiday visa after VFS completion (Dec 2026).</p>
+<section class="section section-skill">
+  <div class="container">
+    <div class="section-header">
+      <h2>Practice Map</h2>
+      <p>Tools and practices mapped from concept to shipping build.</p>
     </div>
-    <div>
-      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
+    <div class="skill-tree">
+      <div class="skill-node is-core">Systems Design</div>
+      <div class="skill-node">Level Flow</div>
+      <div class="skill-node">Combat Tuning</div>
+      <div class="skill-node">UX Scripting</div>
+      <div class="skill-node">Telemetry Notes</div>
+      <div class="skill-node">Narrative Hooks</div>
+      <div class="skill-node">Balancing Tables</div>
+      <div class="skill-node">Playtest Plans</div>
+      <div class="skill-node">Documentation</div>
     </div>
   </div>
 </section>
 
-
-
-
-
+<section class="section section-cta">
+  <div class="container cta-grid">
+    <div>
+      <h2>Open to Opportunities</h2>
+      <p>Based in Vancouver. Preparing IEC Working Holiday visa after VFS completion (Dec 2026).</p>
+    </div>
+    <div class="cta-side">
+      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
+      <div class="loot-panel">
+        <div class="loot-title">Design Insight</div>
+        <p class="loot-output" data-roll-output>
+          Balance for intent, then tune for mastery.
+        </p>
+        <button class="btn ghost" type="button" data-roll>New Insight</button>
+      </div>
+    </div>
+  </div>
+</section>

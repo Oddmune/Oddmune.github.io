@@ -26,8 +26,17 @@ layout: default
 <section class="section">
   <div class="container project-body">
     <aside class="project-sidebar">
+      <div class="sidebar-card museum-label">
+        <div class="museum-title">Project Brief</div>
+        <p>{{ page.subtitle | default: "Gameplay system case study." }}</p>
+        <div class="museum-meta">
+          {% if page.role %}<span>{{ page.role }}</span>{% endif %}
+          {% if page.engine %}<span>{{ page.engine }}</span>{% endif %}
+          {% if page.status %}<span>{{ page.status }}</span>{% endif %}
+        </div>
+      </div>
       <div class="sidebar-card">
-        <h3>Project Snapshot</h3>
+        <h3>Project Notes</h3>
         <ul class="meta-list">
           {% if page.type %}<li><strong>Type:</strong> {{ page.type }}</li>{% endif %}
           {% if page.genre %}<li><strong>Genre:</strong> {{ page.genre }}</li>{% endif %}
@@ -49,7 +58,10 @@ layout: default
       <a class="btn ghost" href="{{ '/portfolio/' | relative_url }}">Back to Portfolio</a>
     </aside>
     <div class="project-content prose">
-      {{ content }}
+      <div class="dialog-panel museum-panel">
+        <div class="dialog-title">Case Notes</div>
+        {{ content }}
+      </div>
     </div>
   </div>
 </section>
