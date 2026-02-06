@@ -2,9 +2,22 @@
 title: "Gourmet of Fire"
 image: "/assets/images/gourmet_of_fire.png"
 layout: project
+subtitle: Cooking-first adventure where system depth drives the fantasy.
+featured: true
+category: game
+role: Game Designer / Programmer
+team: Team of 2
+engine: Unity
+type: Graduation project
+genre: 2D top-down cooking adventure
+platforms: Windows / HTML
+duration: Jan 1, 2024 to Nov 15, 2024 (320 days)
+status: Finished prototype
+tools: ["Unity", "C#"]
+focus: [Technical Design, Gameplay Systems, Level Design]
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
 
 * [Link to the game](https://odd-mune.itch.io/gourmet-of-fire)
 * [Instagram](https://www.instagram.com/gourmet_of_fire)
@@ -75,7 +88,7 @@ layout: project
 
 ## Overview
 
-"Embark on an adventure to find your own 美味(taste)."
+"Embark on an adventure to find your own 맛 (taste)."
 
 In the land of gourmet, the Kingdom of Cuisine, under the protection of the fire spirit, the ancient flames are passed down, continuing their legacy. The spark that split from the first flame has safeguarded the kingdom's people and contributed to the development of its culinary culture. However, as time passed, the flame began to lose its vigor, and despite the kingdom's efforts to restore it, the flame continues to weaken day by day. In the midst of this decline, the princess, born with the strongest protection of fire and the ability to hear the song of fire, feels a deep sense of responsibility. Determined to solve the crisis, she embarks on an adventure beyond the palace to find a solution.
 
@@ -157,4 +170,5 @@ Secondary goal was to complete a game, not a prototype. I have created some stud
 
 ## Gameplay Videos
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
+

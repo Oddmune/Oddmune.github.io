@@ -2,12 +2,15 @@
 layout: page
 title: "Contact"
 permalink: /contact/
+kicker: Connect
+subtitle: Based in Vancouver, open to NA opportunities and collaborations.
 ---
 
-You can contact me at
+Best ways to reach me:
 
-* [LinkedIn](https://www.linkedin.com/in/oddmune-undefined-7aa125350/)
-* [itch.io](https://odd-mune.itch.io/) 
-* ArtStation
-* [GitHub](https://github.com/oddmune)
-* e-mail: odd-mune@gmail.com
+* Email: [odd-mune@gmail.com](mailto:odd-mune@gmail.com)
+* LinkedIn: [oddmune-undefined-7aa125350](https://www.linkedin.com/in/oddmune-undefined-7aa125350/)
+* Itch.io: [odd-mune](https://odd-mune.itch.io/)
+* GitHub: [oddmune](https://github.com/oddmune)
+
+Location: Vancouver, BC (Pacific Time)

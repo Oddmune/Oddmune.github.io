@@ -1,13 +1,55 @@
 ---
-layout: page
+layout: default
 ---
 
-<h1>{{ page.title }}</h1>
+<section class="page-hero project-hero">
+  <div class="container project-hero-grid">
+    <div>
+      <p class="hero-kicker">Case Study</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="hero-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+      <div class="chip-grid">
+        {% if page.role %}<span class="chip">{{ page.role }}</span>{% endif %}
+        {% if page.engine %}<span class="chip">{{ page.engine }}</span>{% endif %}
+        {% if page.team %}<span class="chip">{{ page.team }}</span>{% endif %}
+        {% if page.status %}<span class="chip">{{ page.status }}</span>{% endif %}
+      </div>
+    </div>
+    <div class="project-hero-media">
+      <img src="{{ page.image }}" alt="{{ page.title }}">
+    </div>
+  </div>
+</section>
 
-<img src="{{ page.image }}" alt="{{ page.title }}" style="max-width: 100%; border-radius: 10px;">
-
-<div>
-  {{ content }}
-</div>
-
-<a href="/portfolio">← Back to Portfolio</a>
+<section class="section">
+  <div class="container project-body">
+    <aside class="project-sidebar">
+      <div class="sidebar-card">
+        <h3>Project Snapshot</h3>
+        <ul class="meta-list">
+          {% if page.type %}<li><strong>Type:</strong> {{ page.type }}</li>{% endif %}
+          {% if page.genre %}<li><strong>Genre:</strong> {{ page.genre }}</li>{% endif %}
+          {% if page.duration %}<li><strong>Schedule:</strong> {{ page.duration }}</li>{% endif %}
+          {% if page.platforms %}<li><strong>Platforms:</strong> {{ page.platforms }}</li>{% endif %}
+          {% if page.tools %}<li><strong>Tools:</strong> {{ page.tools | join: ", " }}</li>{% endif %}
+        </ul>
+      </div>
+      {% if page.focus %}
+      <div class="sidebar-card">
+        <h3>Design Focus</h3>
+        <div class="card-tags">
+          {% for item in page.focus %}
+          <span>{{ item }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      <a class="btn ghost" href="{{ '/portfolio/' | relative_url }}">Back to Portfolio</a>
+    </aside>
+    <div class="project-content prose">
+      {{ content }}
+    </div>
+  </div>
+</section>

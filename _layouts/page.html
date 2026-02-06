@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="hero-kicker">{{ page.kicker | default: "Game Design" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="hero-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container prose">
+    {{ content }}
+  </div>
+</section>

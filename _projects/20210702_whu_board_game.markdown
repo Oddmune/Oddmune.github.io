@@ -2,9 +2,22 @@
 title: "Who[hu;] Board Game"
 image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdf426fa9-315c-4c07-b8cd-92ef2da301ff%2F92f7bda6-1676-4483-8a21-8382745f4d0f%2F%25ED%2599%2594%25EB%25A9%25B4_%25EC%25BA%25A1%25EC%25B2%2598_2024-06-27_223911.png?table=block&id=4569438a-5181-4526-b6d0-d1544c5e928e&spaceId=df426fa9-315c-4c07-b8cd-92ef2da301ff&width=2000&userId=&cache=v2"
 layout: project
+subtitle: Crowdfunded mystery board game with strong level balance.
+featured: true
+category: game
+role: Board/Level Designer / QA
+team: Team of 6
+engine: Physical board game
+type: Startup crowdfunded project
+genre: Mystery investigation board game
+platforms: Physical
+duration: Jul 2, 2021 to Jun 1, 2023 (730 days)
+status: Completed
+tools: ["Adobe Illustrator", "Photoshop"]
+focus: [Level Design, System Balance, UX]
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Q-adX99D2R8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Q-adX99D2R8" title="Who[hu;] Board Game" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
 
 * [Crowdfunding campaign](https://tumblbug.com/5w1h_who?_branch_match_id=1369610236592498299&utm_source=tumblbug&utm_campaign=project_detail&utm_medium=share&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9YrKc1NykkqTddLzs%2FVdy0u9y1NMajy9U6yrytKTUstKsrMS49PKsovL04tsg3PSMxJBQDsqA1lPgAAAA%3D%3D)
 * [Instagram](https://www.instagram.com/5w1h_who)
@@ -143,3 +156,4 @@ Are you ready to get to the bottom of it?
 
 * Setting a leader role for more unified and focused viewpoints.
   * This project gave me a lot of insights into why a project needs a leader and what the leader should do for successful teamwork
+

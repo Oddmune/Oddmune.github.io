@@ -2,9 +2,22 @@
 title: "Cocktail Hour"
 image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdf426fa9-315c-4c07-b8cd-92ef2da301ff%2Fa1e92aa5-930b-49e7-8b7a-ba250b2f693b%2F%25EC%258B%259C%25EC%259E%2591%25ED%2599%2594%25EB%25A9%25B4_%25EB%25B0%25B0%25EA%25B2%25BD-01-01.jpg?table=block&id=e4b9f7b2-e26b-431c-a93d-dc04beceef03&spaceId=df426fa9-315c-4c07-b8cd-92ef2da301ff&width=2000&userId=&cache=v2"
 layout: project
+subtitle: Tycoon game balancing humor, pacing, and economy.
+featured: true
+category: game
+role: Lead Game Designer
+team: Team of 5
+engine: Pygame
+type: Student project
+genre: 2D Tycoon
+platforms: Python 3+
+duration: Sep 1, 2023 to Nov 30, 2023 (91 days)
+status: Completed
+tools: ["Python", "Pygame"]
+focus: [Gameplay Systems, Technical Design]
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bPCbSQJAFus" title="Cocktail Hour" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bPCbSQJAFus" title="Cocktail Hour" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
 
 <div class="slideshow-container">
   <div class="slides-wrapper">
@@ -118,3 +131,5 @@ In the year 5033, at the space station Moonshine Station. As interplanetary trav
 * UI design
 * Utilizing the con-world
   * The world we built was very attractive, but the game has failed to convey that immersion properly
+
+

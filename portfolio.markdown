@@ -2,54 +2,48 @@
 layout: page
 title: "Portfolio"
 permalink: /portfolio/
+kicker: Work
+subtitle: Selected game design case studies and production work.
 ---
 
-<h1>Projects</h1>
+## Games
 
 <div class="portfolio-grid">
-  {% for project in site.projects reversed %}
-  <div class="portfolio-item">
-    <a href="{{ project.url }}">
+  {% assign games = site.projects | where: "category", "game" | sort: "path" | reverse %}
+  {% for project in games %}
+  <a class="card" href="{{ project.url }}">
+    <div class="card-image">
       <img src="{{ project.image }}" alt="{{ project.title }}">
-      <div class="overlay">{{ project.title }}</div>
-    </a>
-  </div>
+    </div>
+    <div class="card-body">
+      <div class="card-title">{{ project.title }}</div>
+      <div class="card-meta">
+        {% if project.role %}<span>{{ project.role }}</span>{% endif %}
+        {% if project.engine %}<span>{{ project.engine }}</span>{% endif %}
+        {% if project.team %}<span>{{ project.team }}</span>{% endif %}
+      </div>
+    </div>
+  </a>
   {% endfor %}
 </div>
 
-<style>
-  .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
+## Other Design
 
-  .portfolio-item {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-  }
-
-  .portfolio-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .portfolio-item:hover img {
-    transform: scale(1.05);
-  }
-
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.2em;
-  }
-</style>
+<div class="portfolio-grid">
+  {% assign other = site.projects | where_exp: "item", "item.category != 'game'" | sort: "path" | reverse %}
+  {% for project in other %}
+  <a class="card" href="{{ project.url }}">
+    <div class="card-image">
+      <img src="{{ project.image }}" alt="{{ project.title }}">
+    </div>
+    <div class="card-body">
+      <div class="card-title">{{ project.title }}</div>
+      <div class="card-meta">
+        {% if project.role %}<span>{{ project.role }}</span>{% endif %}
+        {% if project.engine %}<span>{{ project.engine }}</span>{% endif %}
+        {% if project.team %}<span>{{ project.team }}</span>{% endif %}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+</div>

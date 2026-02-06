@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker">Technical Design · Gameplay Design · Level Design</p>
+      <h1>{{ site.title }}</h1>
+      <p class="hero-subtitle">
+        Korean game designer studying at Vancouver Film School (Jan–Dec 2026), building gameplay systems and
+        levels that ship. I specialize in the hard middle: converting ideas into rules, balance, and
+        implementation-ready specs.
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="{{ '/portfolio/' | relative_url }}">View Portfolio</a>
+        <a class="btn ghost" href="{{ '/cv/' | relative_url }}">Download CV</a>
+      </div>
+      <div class="hero-metrics">
+        <div>
+          <span class="metric-value">3+</span>
+          <span class="metric-label">Shipped student projects</span>
+        </div>
+        <div>
+          <span class="metric-value">2</span>
+          <span class="metric-label">Team leadership roles</span>
+        </div>
+        <div>
+          <span class="metric-value">2026</span>
+          <span class="metric-label">VFS Game Design</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <img src="{{ '/assets/images/profile_picture_front.jpg' | relative_url }}" alt="Mingyeom Song portrait">
+      <div class="hero-card">
+        <div class="hero-card-title">Currently</div>
+        <div class="hero-card-body">Vancouver, BC · Game Design (VFS)</div>
+        <div class="hero-card-title">Open To</div>
+        <div class="hero-card-body">Gameplay/Technical Design · Level Design</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>What I Design</h2>
+      <p>Systems that are readable, testable, and fun under real production constraints.</p>
+    </div>
+    <div class="pill-grid">
+      <div class="pill-card">
+        <h3>Technical Design</h3>
+        <p>Mechanic specs, tuning tables, and clean implementation plans for engineers.</p>
+      </div>
+      <div class="pill-card">
+        <h3>Gameplay Systems</h3>
+        <p>Progression loops, economy, balance, and friction that supports player intent.</p>
+      </div>
+      <div class="pill-card">
+        <h3>Level Design</h3>
+        <p>Readable flow, pacing, and spatial storytelling that teach systems through play.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>Case studies with goals, constraints, and impact.</p>
+    </div>
+    <div class="card-grid">
+      {% assign featured = site.projects | where: "featured", true | sort: "path" | reverse %}
+      {% for project in featured %}
+      <a class="card" href="{{ project.url }}">
+        <div class="card-image">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+        </div>
+        <div class="card-body">
+          <div class="card-title">{{ project.title }}</div>
+          <div class="card-meta">
+            {% if project.role %}<span>{{ project.role }}</span>{% endif %}
+            {% if project.engine %}<span>{{ project.engine }}</span>{% endif %}
+            {% if project.team %}<span>{{ project.team }}</span>{% endif %}
+          </div>
+          <div class="card-tags">
+            {% for item in project.focus %}
+            <span>{{ item }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="section-actions">
+      <a class="btn ghost" href="{{ '/portfolio/' | relative_url }}">See All Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>How I Work</h2>
+      <p>Design is only valuable when it lands in the build. Here is how I stay production-ready.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Define the Core Loop</h3>
+        <p>Translate goals into rules, constraints, and success metrics with clear player verbs.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Prototype and Instrument</h3>
+        <p>Implement in Unity/Pygame, build tuning tables, and validate with playtests.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Ship with Clarity</h3>
+        <p>Deliver readable documentation, balance notes, and handoff-ready specs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-cta">
+  <div class="container cta-grid">
+    <div>
+      <h2>Open to NA opportunities</h2>
+      <p>Based in Vancouver. Preparing IEC Working Holiday visa after VFS completion (Dec 2026).</p>
+    </div>
+    <div>
+      <a class="btn primary" href="{{ '/contact/' | relative_url }}">Start a Conversation</a>
+    </div>
+  </div>
+</section>

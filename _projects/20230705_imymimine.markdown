@@ -2,6 +2,12 @@
 title: "IMYMIMINE, an Interactive Game"
 image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdf426fa9-315c-4c07-b8cd-92ef2da301ff%2Fc4d5cf04-4e40-4ae5-a3e2-3deacb95b6d6%2F%25ED%2599%2594%25EB%25A9%25B4_%25EC%25BA%25A1%25EC%25B2%2598_2024-06-28_043010.png?table=block&id=28bbf1b2-395a-4c59-98fd-96604104f637&spaceId=df426fa9-315c-4c07-b8cd-92ef2da301ff&width=2000&userId=&cache=v2"
 layout: project
+category: game
+role: Game Designer
+engine: Unity
+type: Student project
+genre: Interactive storytelling
+platforms: Windows 10+
 ---
 
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/BGuFgXb1j5o" title="IMYMIMINE" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
