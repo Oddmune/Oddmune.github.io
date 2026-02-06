@@ -11,13 +11,13 @@ subtitle: Korean game designer focused on technical design, gameplay systems, an
   <img src="/assets/images/odd_mune_profile.png" alt="oddmune" width="160">
 </div>
 
-I design systems that are playable, testable, and shippable. My strongest work sits between design and implementation: I turn big ideas into rules, tuning tables, and level flows that engineers and artists can actually build. I love discovering the “why” behind player behavior and then shaping the “how” through mechanics, pacing, and feedback.
+I design systems that are playable, testable, and shippable. My strongest work sits between design and implementation: I turn big ideas into rules, tuning tables, and level flows that engineers and artists can actually build. I love discovering the why behind player behavior and then shaping the flow through mechanics, pacing, and feedback.
 
 **Current**  
-Vancouver Film School, Game Design (Jan 2026–Dec 2026)
+Vancouver Film School, Game Design (Jan 2026-Dec 2026)
 
 **Education**  
-B.A. in Digital Contents, Kyung Hee University (Mar 2020–Feb 2025)
+B.A. in Digital Contents, Kyung Hee University (Mar 2020-Feb 2025)
 
 **Now**  
 Developing a horror-themed farming game for Farm Jam 2025.
@@ -36,3 +36,7 @@ Developing a horror-themed farming game for Farm Jam 2025.
 * Adobe Illustrator, Photoshop, After Effects, Premiere, Lightroom
 * Autodesk Maya, Houdini
 * Git, GitHub, SourceTree, Unity Version Control, Perforce
+
+
+
+

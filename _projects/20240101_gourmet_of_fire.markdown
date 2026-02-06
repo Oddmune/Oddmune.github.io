@@ -17,7 +17,7 @@ tools: ["Unity", "C#"]
 focus: [Technical Design, Gameplay Systems, Level Design]
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
+<div class="video-embed">\n  <iframe src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>\n</div>
 
 * [Link to the game](https://odd-mune.itch.io/gourmet-of-fire)
 * [Instagram](https://www.instagram.com/gourmet_of_fire)
@@ -88,7 +88,7 @@ focus: [Technical Design, Gameplay Systems, Level Design]
 
 ## Overview
 
-"Embark on an adventure to find your own 맛 (taste)."
+"Embark on an adventure to find your own taste."
 
 In the land of gourmet, the Kingdom of Cuisine, under the protection of the fire spirit, the ancient flames are passed down, continuing their legacy. The spark that split from the first flame has safeguarded the kingdom's people and contributed to the development of its culinary culture. However, as time passed, the flame began to lose its vigor, and despite the kingdom's efforts to restore it, the flame continues to weaken day by day. In the midst of this decline, the princess, born with the strongest protection of fire and the ability to hear the song of fire, feels a deep sense of responsibility. Determined to solve the crisis, she embarks on an adventure beyond the palace to find a solution.
 
@@ -109,18 +109,18 @@ In the land of gourmet, the Kingdom of Cuisine, under the protection of the fire
 
 ![Mechanics](/assets/images/gourmet_of_fire_creative_submission_03_gameplay_and_systems_design_and_programming.jpg)
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * Unity
 * C#
 
-### Design Goal
+## Design Goals
 
 Cooking plays a supporting role in other typical games. They would either heal, give them ability boosts, and etc. I wanted to make a cooking mechanics as the major part of the gameplay in this Cooking Fantasy genre. I wanted to show that cooking can serve as a purpose of adventure.
 
 Secondary goal was to complete a game, not a prototype. I have created some student projects where I or the team would develop a prototype, but never a complete game.
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 * Team Leader
   * Led the team of two. The other member was the artist who did most of the artworks.
@@ -130,13 +130,13 @@ Secondary goal was to complete a game, not a prototype. I have created some stud
 * Game Programmer
   * Developed the game in Unity C#
 
-### Minor Contributions
+## Minor Contributions
 
 * Logo design
 * Worldbuilding
 * Concept art
 
-### Major Challenges
+## Major Challenges
 
 * How to create a fun cooking mechanics, not like usual combination mechanics other games have. The purpose was to make the cooking gameplay mechanics fun, for it is the core mechanic of the game.
 * Communication
@@ -156,13 +156,13 @@ Secondary goal was to complete a game, not a prototype. I have created some stud
   * Based on my capabilities, I had a lot of challenges on making priorities
   * Priorities based on what I want to implement, what I can implement, and what the game actually needs to be a "game"
 
-### Possible Improvements
+## Possible Improvements
 
 * Optimizing the pre-production to maximize the production time
   * We had a lot of mistakes due to lack of experiences during the pre-production
   * Now I can reduce the pre-production process because I know where and what to focus
 
-## Reviews / Feedbacks
+## Reviews / Feedback
 
 * I have learned how to create a design documents based on priorities and schedule
   * How and where to focus
@@ -170,5 +170,10 @@ Secondary goal was to complete a game, not a prototype. I have created some stud
 
 ## Gameplay Videos
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
+<div class="video-embed">\n  <iframe src="https://www.youtube.com/embed/W7AT3YjdtvY" title="Gourmet of Fire" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>\n</div>
+
+
+
+
+
 

@@ -10,7 +10,9 @@ genre: Interactive storytelling
 platforms: Windows 10+
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BGuFgXb1j5o" title="IMYMIMINE" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/BGuFgXb1j5o" title="IMYMIMINE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
 
 ## Overview
 
@@ -29,24 +31,37 @@ The story was inspired by the film "Everything Everywhere All at Once" (2022).
 * Status: Completed
 * Role: Leader, Narrative Designer, Game Programmer
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * Unity
 * C#
 
-### Design Goal
+## Design Goals
 
 * Design and create my first virtual interactive storytelling in the form of a game
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 * Sole game programmer using Unity
   * I had to learn C# and develop the scene transition systems, dialogue systems, etc.
 * Storyboard
 * Team scheduling
 
-### Major Challenges
+## Major Challenges
 
 * How to break the scenes
   * The resources changes per scene, and the selection process relied on the player's choice, so it was important to appropriately break the scenes to optimize the resource loading
 * The background was 3D, but the characters were 2D, as a leader, I had to find the common ground and art direction to make them blend in.
+
+## Outcomes
+
+* Completed student project
+
+## Design Artifacts
+
+* Scene transition system and dialogue flow (described above)
+
+
+
+
+

@@ -88,7 +88,7 @@ layout: project
 
 ## Overview
 
-🍶 "Enjoying the Aesthetic of Moderation"
+"Enjoying the Aesthetic of Moderation"
 
 Seonyubae is inspired by the Gyeongyeongbae, a cup crafted by Joseon-era potter Myeongok Woo.
 
@@ -102,15 +102,15 @@ We have reinterpreted this historic cup modernly, bringing an entirely new produ
 * Status: Completed
 * Role: Product Design, Packaging, Shipping, Customer Services Manager
 
-## Contributions / Responsibilities
+## Responsibilities
 
 I was a product designer, a product photographer, and a customer services manager. My skills involved Adobe Illustrator, Adobe Photoshop, and Adobe Lightroom.
 
-### Design Goal
+## Design Goals
 
 * Experience the entire process of designing a product to manufacturing, marketing, and sales
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 ![First Package](/assets/images/a_cup_embodying_the_aesthetic_of_restraint_package.jpg)
 
@@ -133,7 +133,7 @@ I was a product designer, a product photographer, and a customer services manage
 
 * Customer services
 
-### Major Challenges
+## Major Challenges
 
 * Inventory management
   * Due to the minimum amount of inventories required to request for manufacturing, we had some leftover products after distributing them to the patrons. We had to set the expected sales appropriately to determine the number of items to manufacture. We also had to open additional online store pages to sell the goods.
@@ -142,7 +142,7 @@ I was a product designer, a product photographer, and a customer services manage
   * I used eco-friendly design for the packages, and it was hard for me to find a good eco-friendly materials for especially the fillings
 * Sending packages
 
-## Reviews / Feedbacks
+## Reviews / Feedback
 
 ![Reviews](/assets/images/a_cup_embodying_the_aesthetic_of_restraint_reviews.jpg)
 
@@ -153,3 +153,5 @@ Translations:
 * I think if I took these cups to MT back in university days, it would have made me very famous lol. Thanks to COVID 19, my alcohol mates were all family, so I gifted a cup to my father, and he is really enjoyed it, and I am also enjoying the cup too. The vibes it gives when drinking alone is so good ;). (@haw*** / 27 yo / female)
 
 [Blog Review](https://blog.naver.com/designpress2016/222346699284)
+
+

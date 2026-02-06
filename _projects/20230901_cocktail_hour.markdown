@@ -17,7 +17,7 @@ tools: ["Python", "Pygame"]
 focus: [Gameplay Systems, Technical Design]
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/bPCbSQJAFus" title="Cocktail Hour" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></p>
+<div class="video-embed">\n  <iframe src="https://www.youtube.com/embed/bPCbSQJAFus" title="Cocktail Hour" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>\n</div>
 
 <div class="slideshow-container">
   <div class="slides-wrapper">
@@ -85,7 +85,7 @@ focus: [Gameplay Systems, Technical Design]
 
 ## Overview
 
-🍸 "I'll have a martini, please! But hold the vermouth."
+"I`'ll have a martini, please! But hold the vermouth."
 
 In the year 5033, at the space station Moonshine Station. As interplanetary travel becomes more convenient, space travel has become part of everyday life. The small cocktail bar "Cocktail Hour," located in Moonshine Station, has become a resting place for weary travelers from various planets. The bar is run by the protagonist's parents. After a long time, the protagonist heads back to their hometown, Moonshine Station. However, the parents suddenly leave, saying they are going on a space trip and leaving only a note asking the protagonist to take care of the bar. Will the protagonist be able to successfully run the cocktail bar?
 
@@ -98,13 +98,13 @@ In the year 5033, at the space station Moonshine Station. As interplanetary trav
 * Status: Completed
 * Role: Leader, Game Designer
 
-## Contributions / Responsibilities
+## Responsibilities
 
-### Design Goal
+## Design Goals
 
 * Design a humorous tycoon game
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 * Lead Game Design
   * I did all the design work except worldbuilding and narrative design
@@ -113,7 +113,7 @@ In the year 5033, at the space station Moonshine Station. As interplanetary trav
     * Designed the rating system with the game programmer
   * Gameplay mechanics
 
-### Major Challenges
+## Major Challenges
 
 * How to run a game team
   * Lack of game dev experiences of the team members
@@ -122,7 +122,7 @@ In the year 5033, at the space station Moonshine Station. As interplanetary trav
       * Artists was not used to 2D sprites, so the no one understood the concept of "number of pixels per block", spritesheets for animations
   * How to deal with file extensions
 
-### Possible Improvements
+## Possible Improvements
 
 * There were too many artists
   * I learned that the structure of a team is very important
@@ -131,5 +131,18 @@ In the year 5033, at the space station Moonshine Station. As interplanetary trav
 * UI design
 * Utilizing the con-world
   * The world we built was very attractive, but the game has failed to convey that immersion properly
+
+
+
+## Outcomes
+
+* Completed student project
+
+## Design Artifacts
+
+* Exhibition preparation and showcase photos (images above)
+
+
+
 
 

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 180 }}">
     <meta name="theme-color" content="#0f1115">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,3 +49,5 @@
     </footer>
   </body>
 </html>
+
+

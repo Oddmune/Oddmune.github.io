@@ -4,7 +4,9 @@ image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files
 layout: project
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/NlOsiZzY-hY" title="OCN Thrills Network Design" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/NlOsiZzY-hY" title="OCN Thrills Network Design" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
 
 ## Overview
 
@@ -18,27 +20,40 @@ OCN Thrills is a channel specializing in broadcasting content from genres such a
 * Status: Completed
 * Role: Leader, Narrative Designer, Motion Graphics Designer, Video Editor
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * Adobe Illustrator
 * Adobe After Effects
 * Adobe Premiere
 
-### Design Goal
+## Design Goals
 
 * Aim for a style that shows each team member's unique design style while preserving the identity of the channel [OCN Thrills](https://en.wikipedia.org/wiki/OCN_Thrills)
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 * Storyboard
   * [Project Proposal (in Korean)](/assets/documents/비미디_ocn-파이널-기획서_개인_.pdf)
   * We had a good storyboard that everyone had fun doing work
 * Based on the Illustrators' work, I created the motion graphics and the final video
 
-### Major Challenges
+## Major Challenges
 
 * It was my first attempt at creating motion graphics video, so it was a bit challenging, but I eventually got used to it
 
-### Possible Improvements
+## Possible Improvements
 
 * The movements are a bit unnatural and not fluid
+
+## Outcomes
+
+* Completed student project
+
+## Design Artifacts
+
+* Storyboard and proposal (link above)
+
+
+
+
+

@@ -4,13 +4,15 @@ image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files
 layout: project
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/AnZ8cvQiyTs" title="LoveCharm SNS Viral Commercial Video" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/AnZ8cvQiyTs" title="LoveCharm SNS Viral Commercial Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
 
 ## Overview
 
-👜 LOVE all your CHARMS, LOVECHARM!
+LOVE all your CHARMS, LOVECHARM!
 
-I created a viral SNS advertisement video for the fashion brand ‘LoveCharm 러브참’ as part of the Kyung Hee University Industry-Academia Collaboration Design Marketing Support Team.
+I created a viral SNS advertisement video for the fashion brand LoveCharm as part of the Kyung Hee University Industry-Academia Collaboration Design Marketing Support Team.
 
 Produced a viral video that aligns with the brand image and can be used for promotional and SNS marketing purposes.
 The video was designed with the MZ generation as the target audience, catering to their sensibilities.
@@ -23,17 +25,17 @@ A short viral ad video of around 1 minute, perfect for Instagram feeds, reels, a
 * Status: Completed
 * Role: Leader, Producer, Director, Cinematographer, Storyboard, Stylist
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * Adobe Illustrator
 * Adobe After Effects
-* Adboe Premiere
+* Adobe Premiere
 
-### Design Goal
+## Design Goals
 
 * Create a trendy commercial targeted at Gen-Z
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 #### Pre-production
 
@@ -51,7 +53,7 @@ A short viral ad video of around 1 minute, perfect for Instagram feeds, reels, a
 
 * Shooting (There were two cinematographers)
 
-### Major Challenges
+## Major Challenges
 
 * Taking care of the physical well-being of the models
   * The shooting took place in the cold late Autumn
@@ -61,7 +63,15 @@ A short viral ad video of around 1 minute, perfect for Instagram feeds, reels, a
   * Meeting the schedule demands
     * A few weeks for pre-production
 
-## Reviews / Feedbacks
+## Outcomes
+
+* Outstanding Award from the 2021 Design Marketing Support Group
+
+## Design Artifacts
+
+* Project proposal and styling document (links above)
+
+## Reviews / Feedback
 
 ![](/assets/images/lovecharm_award.jpg)
 ![](/assets/images/lovecharm_awards_ceremony.jpg)

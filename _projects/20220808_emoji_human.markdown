@@ -77,7 +77,7 @@ allowfullscreen></iframe>
 
 ## Overview
 
-Aren’t We Emoji Humans?
+Aren't We Emoji Humans?
 
 Nowadays, most people who use smartphones often communicate through emojis on social media. Emojis are more convenient than writing long text explanations because they allow for an intuitive conveyance of expressions and emotions. As a result, the daily lives of modern individuals are filled with emojis, leading to the thought, "Are we emoji humans?" This idea gave birth to the Emoji Human Project.
 
@@ -88,17 +88,17 @@ Nowadays, most people who use smartphones often communicate through emojis on so
 * Status: Completed
 * Role: Leader, Web Designer, Web Developer
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * HTML/CSS/JS
 * Git, GitHub, SourceTree
 
-### Design Goal
+## Design Goals
 
 * Design an interactive media
   * Projection mapping was a passive interaction, so I wanted to create something more immersive and active
 
-### Highlights / Major Contributions
+## Highlights / Major Contributions
 
 * Frontend Design
 * GitHub page integration
@@ -106,12 +106,17 @@ Nowadays, most people who use smartphones often communicate through emojis on so
   * Tons of copy-pasting from StackOverflow and references
 * Emoji Translator
 
-### Major Challenges
+## Major Challenges
 
 * Lack of depth in programming (esp. in scripting)
 
-### Possible Improvements
+## Possible Improvements
 
 * Considering the change of resolutions, aspect ratios
 
 ## Gameplay Videos
+
+
+
+
+

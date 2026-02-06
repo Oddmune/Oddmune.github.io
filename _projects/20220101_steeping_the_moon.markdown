@@ -4,7 +4,9 @@ image: "https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files
 layout: project
 ---
 
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/yzG5On8NSss" title="Steeping the Moon" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">youtube embed code</a> and <a href="https://snabblan.io/">snabblån utan uc</a></iframe></p>
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/yzG5On8NSss" title="Steeping the Moon" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+</div>
 
 * [Instagram page from the Exhibition account](https://www.instagram.com/p/Caprt0Lhw3w/)
 
@@ -24,14 +26,14 @@ I had an experience funding a modern reinterpretation of a traditional wine cup 
 * Team/solo: Solo
 * Status: Completed
 
-## Contributions / Responsibilities
+## Responsibilities
 
 * Resolume Arena
 * Adobe Illustrator
 * Adobe After Effects
 * Adboe Premiere
 
-### Design Goal
+## Design Goals
 
 * Implement designs from the [previous crowdfunded projects](/_projects/20201202_a_cup_embodying_the_aesthetic_of_restraint.markdown) that were rejected due to lack of technological understanding
 
@@ -42,7 +44,11 @@ I had an experience funding a modern reinterpretation of a traditional wine cup 
 * Projection mapping
 * Creating the video to map
 
-### Major Challenges
+## Major Challenges
 
 * Matching the coordinate systems of the displaying object and the projector
 * Getting the right focus onto the projection plane
+
+
+
+
