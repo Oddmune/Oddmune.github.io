@@ -21,13 +21,13 @@
 title: Mingyeom Song
 email: odd-mune@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Game designer focused on technical design, gameplay systems, and level design.
+  Technical Designer (Unity/C#) focused on gameplay systems.
 domain: oddmune.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://oddmune.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  oddmune
-linkedin_username: oddmune
+linkedin_username: mingyeom-song-7aa125350
 instagram_username: oddmune
 
 # Build settings

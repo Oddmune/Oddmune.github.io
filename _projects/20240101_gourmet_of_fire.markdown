@@ -114,6 +114,40 @@ In the land of gourmet, the Kingdom of Cuisine, under the protection of the fire
 * Unity
 * C#
 
+## Systems Breakdown
+
+### Cooking loop system (state machine + events)
+
+* Core loop states: Gather -> Prep -> Cook -> Plate -> Deliver -> Reward
+* State transitions fired by validated inputs (ingredient picked up, heat threshold reached, timer complete)
+* Event bus used to broadcast state changes to UI, audio, and tutorial prompts
+* Fail states: burnt, wrong ingredient order, delivery timeout, with recovery rules
+
+Artifacts delivered:
+* State machine diagram, transition table, and event list
+* Debug UI checklist for state and timer verification
+
+### UI architecture (data flow + validation)
+
+* UI reads from a single cooking session model (current recipe, timers, quality score)
+* Input validation ensures correct ingredient order and prevents invalid actions
+* UI feedback mapped to system outcomes (quality grade, heat warnings, combo bonuses)
+* Error states surfaced with clear prompts to reduce player confusion
+
+Artifacts delivered:
+* UI flow map, input validation rules, and error-state copy list
+* Debug overlay plan for recipe steps and timer thresholds
+
+### Tuning (variables, balance, metrics)
+
+* Tunable variables: cook timers, heat decay, ingredient value, combo windows, reward multipliers
+* Balance targets: average cook time per dish, failure rate per tier, revenue pacing per day
+* Playtest metrics tracked: completion rate, average dish quality, time-to-master per recipe
+
+Artifacts delivered:
+* Tuning sheet with target ranges and version notes
+* Playtest log template with change notes and outcome deltas
+
 ## Design Goals
 
 Cooking plays a supporting role in other typical games. They would either heal, give them ability boosts, and etc. I wanted to make a cooking mechanics as the major part of the gameplay in this Cooking Fantasy genre. I wanted to show that cooking can serve as a purpose of adventure.
