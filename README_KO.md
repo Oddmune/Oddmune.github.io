@@ -5,8 +5,9 @@
 ## 파일 구조
 
 ```
-index.html              ← 메인 (이름, 직무, 소셜 버튼, 프로젝트 카드)
-about.html              ← About Me
+index.html              ← HOME (자동 캐러셀 + Featured 프로젝트 카드)
+about.html              ← ABOUT (자기소개, 소셜 버튼, 스킬, 학력, 연락처)
+projects.html           ← PROJECTS (전체 프로젝트 카드)
 resume.html             ← 이력서 보기 + 다운로드
 projects/
   smorge.html           ← 프로젝트 상세 페이지
@@ -32,7 +33,8 @@ assets/
 1. `projects/_template.html` 을 복사해서 `projects/새이름.html` 로 저장
 2. 노란 점선으로 표시된 `TODO` 부분을 채우고 `class="todo"` 표시는 지우기
 3. 이미지를 `assets/images/` 에 올리고 캐러셀의 `<div class="slide-placeholder">` 를 `<img src="../assets/images/파일.jpg" alt="설명">` 로 바꾸기
-4. `index.html` 에서 프로젝트 카드 `<a class="card">...</a>` 블록 하나를 복사해서 링크, 이미지, 글자 바꾸기
+4. `projects.html` 에 프로젝트 카드 `<a class="card">...</a>` 블록 하나를 복사해서 추가
+5. 대표작이면 `index.html` 에도 카드를 추가하고, 위쪽 캐러셀에 `<a class="home-slide">` 블록도 하나 추가
 
 **글자 강조하기**
 - `<span class="key">텍스트</span>` → 주황색 굵은 글씨 (핵심 기술)

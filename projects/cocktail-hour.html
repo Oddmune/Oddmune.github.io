@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cocktail Hour | Mingyeom Song</title>
+  <link rel="icon" href="../assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-root="../" data-page="projects">
+  <header id="site-header"></header>
+
+  <!-- ===== 1. BANNER ===== -->
+  <section class="banner" style="background-image: url('../assets/images/ch_exhibit_0.jpg')">
+    <div class="wrap">
+      <a class="back-link" href="../projects.html">&larr; All projects</a>
+      <h1>Cocktail Hour</h1>
+      <p class="tagline">A humorous tycoon game: run your parents’ cocktail bar on a space station.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <!-- ===== 2. IMAGE CAROUSEL ===== -->
+    <div class="carousel" aria-label="Cocktail Hour images">
+      <div class="carousel-track">
+        <img src="https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdf426fa9-315c-4c07-b8cd-92ef2da301ff%2Fa1e92aa5-930b-49e7-8b7a-ba250b2f693b%2F%25EC%258B%259C%25EC%259E%2591%25ED%2599%2594%25EB%25A9%25B4_%25EB%25B0%25B0%25EA%25B2%25BD-01-01.jpg?table=block&amp;id=e4b9f7b2-e26b-431c-a93d-dc04beceef03&amp;spaceId=df426fa9-315c-4c07-b8cd-92ef2da301ff&amp;width=2000&amp;userId=&amp;cache=v2" alt="Title screen" loading="lazy" onerror="this.onerror=null;this.src='../assets/images/ch_exhibit_0.jpg'">
+        <img src="https://imported-rubidium-c25.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fdf426fa9-315c-4c07-b8cd-92ef2da301ff%2Fb92a5799-b240-4831-8a13-ae9dd08893de%2F%25ED%258F%25AC%25EC%258A%25A4%25ED%2584%25B0.png?table=block&amp;id=54e34bc0-318f-4976-af50-622c00bce02d&amp;spaceId=df426fa9-315c-4c07-b8cd-92ef2da301ff&amp;width=1420&amp;userId=&amp;cache=v2" alt="Poster" loading="lazy" onerror="this.onerror=null;this.src='../assets/images/ch_exhibit_0.jpg'">
+        <img src="../assets/images/ch_exhibit_0.jpg" alt="Exhibition booth">
+        <img src="../assets/images/ch_exhibit_1.jpg" alt="Exhibition">
+        <img src="../assets/images/ch_prep_0.jpg" alt="Exhibition preparation">
+        <img src="../assets/images/ch_prep_2.jpg" alt="Exhibition preparation">
+      </div>
+    </div>
+
+    <!-- ===== 3. SUMMARY ===== -->
+    <section class="summary">
+      <h2>Summary</h2>
+      <dl class="facts">
+        <div class="fact"><dt>Genre</dt><dd>2D Tycoon</dd></div>
+        <div class="fact highlight"><dt>My Role</dt><dd>Team Lead · Lead Game Designer</dd></div>
+        <div class="fact"><dt>Team Size</dt><dd>5</dd></div>
+        <div class="fact"><dt>Duration</dt><dd>Sep – Nov 2023 (3 months)</dd></div>
+        <div class="fact"><dt>Engine</dt><dd>Pygame</dd></div>
+        <div class="fact"><dt>Language</dt><dd>Python</dd></div>
+      </dl>
+      <p class="intro">In the year 5033, space travel is part of everyday life. You come home to Moonshine Station, but your parents leave for a space trip and ask you to run their small cocktail bar. Serve weary travelers from different planets and keep the bar alive.</p>
+      <div class="social-row">
+        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=bPCbSQJAFus" target="_blank" rel="noopener">Gameplay video</a>
+      </div>
+    </section>
+
+    <!-- ===== 4. WHAT I DID ===== -->
+    <section class="content-section">
+      <h2>What I Did</h2>
+      <div class="work-block">
+        <h3>Systems &amp; Tycoon Design</h3>
+        <ul>
+          <li>Did <span class="key">all of the design work</span> except worldbuilding and narrative.</li>
+          <li>Designed the <span class="hl">data model behind the core loop</span>: customer taste parameters and cocktail ingredient attributes.</li>
+          <li>Co-designed the <span class="key">customer rating system</span> with the programmer, and defined all tycoon rules and mechanics.</li>
+        </ul>
+      </div>
+      <div class="work-block">
+        <h3>Team Lead</h3>
+        <ul>
+          <li>Led a team of five, most of whom were making a game for the first time.</li>
+          <li>Bridged designers, programmers, and artists, for example explaining pixels per block and sprite sheets to the art team.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 5. POSTMORTEM ===== -->
+    <section class="content-section">
+      <h2>Postmortem</h2>
+      <div class="postmortem">
+        <div class="pm-card pm-good">
+          <h3>✅ What went well</h3>
+          <ul>
+            <li>We completed the game and showed it at an exhibition.</li>
+          </ul>
+        </div>
+        <div class="pm-card pm-learn">
+          <h3>💡 What I learned</h3>
+          <ul>
+            <li><span class="hl">Team structure matters</span>: we had too many artists for the scope.</li>
+            <li>How to communicate across roles as a designer.</li>
+          </ul>
+        </div>
+        <div class="pm-card pm-improve">
+          <h3>🔧 What I'd improve</h3>
+          <ul>
+            <li>The scope was too big for one semester and a mostly first-time team.</li>
+            <li>The UI, and how well the game conveyed our world and its immersion.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <nav class="project-nav">
+      <a class="btn" href="gourmet-of-fire.html">&larr; Gourmet of Fire</a>
+      <a class="btn" href="imymimine.html">IMYMIMINE &rarr;</a>
+    </nav>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

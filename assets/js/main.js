@@ -15,9 +15,10 @@ const SITE = {
     { label: "ECO",      url: "#",                                                   icon: "folder" },
   ],
   nav: [
-    { label: "Portfolio", href: "index.html",  key: "portfolio" },
-    { label: "About",     href: "about.html",  key: "about" },
-    { label: "Resume",    href: "resume.html", key: "resume" },
+    { label: "Home",     href: "index.html",    key: "home" },
+    { label: "About",    href: "about.html",    key: "about" },
+    { label: "Projects", href: "projects.html", key: "projects" },
+    { label: "Resume",   href: "resume.html",   key: "resume" },
   ],
 };
 
@@ -59,9 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
           <span class="brand-name">${SITE.name}</span>
           <span class="brand-role">${SITE.role}</span>
         </a>
-        <nav class="main-nav" aria-label="Main">
-          ${SITE.nav.map(n => `<a href="${root}${n.href}" class="${n.key === page ? "active" : ""}">${n.label}</a>`).join("")}
-        </nav>
+        <div class="header-right">
+          <nav class="main-nav" aria-label="Main">
+            ${SITE.nav.map(n => `<a href="${root}${n.href}" class="${n.key === page ? "active" : ""}">${n.label}</a>`).join("")}
+          </nav>
+        </div>
       </div>`;
   }
 
@@ -87,12 +90,21 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".carousel").forEach(setupCarousel);
 });
 
-/* ---------- image carousel (arrows, dots, swipe, keyboard) ---------- */
+/* ---------- image carousel: infinite loop, arrows, dots, swipe, keyboard ----------
+   Add data-autoplay="4000" to a .carousel to make it change by itself (milliseconds). */
 function setupCarousel(el) {
   const track = el.querySelector(".carousel-track");
   const slides = [...track.children];
-  if (!slides.length) return;
-  let index = 0;
+  const count = slides.length;
+  if (!count) return;
+
+  // Copy the first and last slide to the ends so the loop looks seamless
+  if (count > 1) {
+    track.appendChild(slides[0].cloneNode(true));
+    track.insertBefore(slides[count - 1].cloneNode(true), slides[0]);
+  }
+  let pos = count > 1 ? 1 : 0;          // position inside the track (with clones)
+  let moving = false;
 
   const dots = document.createElement("div");
   dots.className = "carousel-dots";
@@ -100,31 +112,40 @@ function setupCarousel(el) {
     const d = document.createElement("button");
     d.type = "button";
     d.setAttribute("aria-label", `Go to image ${i + 1}`);
-    d.addEventListener("click", () => go(i));
+    d.addEventListener("click", e => { e.preventDefault(); move(i + 1); });
     dots.appendChild(d);
   });
 
   const prev = document.createElement("button");
   prev.className = "carousel-btn prev"; prev.type = "button";
-  prev.setAttribute("aria-label", "Previous image"); prev.innerHTML = "&#8249;";
+  prev.setAttribute("aria-label", "Previous image"); prev.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>';
   const next = document.createElement("button");
   next.className = "carousel-btn next"; next.type = "button";
-  next.setAttribute("aria-label", "Next image"); next.innerHTML = "&#8250;";
-  prev.addEventListener("click", () => go(index - 1));
-  next.addEventListener("click", () => go(index + 1));
+  next.setAttribute("aria-label", "Next image"); next.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>';
+  prev.addEventListener("click", e => { e.preventDefault(); move(pos - 1); });
+  next.addEventListener("click", e => { e.preventDefault(); move(pos + 1); });
 
-  const counter = document.createElement("span");
-  counter.className = "carousel-count";
+  if (count > 1) el.append(prev, next, dots);
 
-  el.append(prev, next, counter);
-  el.after(dots);
-
-  function go(i) {
-    index = (i + slides.length) % slides.length;
-    track.style.transform = `translateX(${-index * 100}%)`;
-    [...dots.children].forEach((d, n) => d.classList.toggle("on", n === index));
-    counter.textContent = `${index + 1} / ${slides.length}`;
+  function render(animate) {
+    track.style.transition = animate ? "" : "none";
+    track.style.transform = `translateX(${-pos * 100}%)`;
+    const real = (pos - 1 + count) % count;
+    [...dots.children].forEach((d, n) => d.classList.toggle("on", n === real));
   }
+  function move(p) {
+    if (moving || count < 2) return;
+    moving = true;
+    pos = p;
+    render(true);
+  }
+  track.addEventListener("transitionend", () => {
+    // landed on a clone -> jump to the real slide without animation
+    if (pos === 0) pos = count;
+    if (pos === count + 1) pos = 1;
+    render(false);
+    moving = false;
+  });
 
   // swipe on phones / tablets
   let startX = null;
@@ -132,16 +153,29 @@ function setupCarousel(el) {
   el.addEventListener("touchend", e => {
     if (startX === null) return;
     const dx = e.changedTouches[0].clientX - startX;
-    if (Math.abs(dx) > 40) go(index + (dx < 0 ? 1 : -1));
+    if (Math.abs(dx) > 40) move(pos + (dx < 0 ? 1 : -1));
     startX = null;
   });
 
-  // keyboard arrows when the carousel is focused
   el.tabIndex = 0;
   el.addEventListener("keydown", e => {
-    if (e.key === "ArrowLeft") go(index - 1);
-    if (e.key === "ArrowRight") go(index + 1);
+    if (e.key === "ArrowLeft") move(pos - 1);
+    if (e.key === "ArrowRight") move(pos + 1);
   });
 
-  go(0);
+  render(false);
+
+  const delay = parseInt(el.dataset.autoplay, 10);
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (delay && !reduceMotion && count > 1) {
+    let timer;
+    const start = () => { clearInterval(timer); timer = setInterval(() => move(pos + 1), delay); };
+    const stop = () => clearInterval(timer);
+    el.addEventListener("mouseenter", stop);
+    el.addEventListener("mouseleave", start);
+    el.addEventListener("touchstart", stop, { passive: true });
+    el.addEventListener("touchend", start);
+    document.addEventListener("visibilitychange", () => (document.hidden ? stop() : start()));
+    start();
+  }
 }
